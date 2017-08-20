@@ -1,0 +1,147 @@
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: inline-flex;
+  width: 100%;
+  background-color: black;
+  z-index: 20;
+  position: fixed;
+  top: 0px;
+}
+body {
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+}
+.logo {
+  margin-left: 10px;
+  height: 50px;
+  margin-top: 9.5px;
+  position: fixed;
+}
+.navtop {
+  display: inline-flex;
+  justify-content: flex-end;
+  font-size: 22px;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  position: fixed;
+}
+
+span {
+  padding: 7.5px;
+}
+.container {
+  display: block;
+  background-color: black;
+  height: auto;
+}
+
+.topcont{
+  display: flex;
+  flex-grow: 2;
+  margin: 0 100px;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  z-index: 50;
+
+}
+.mainpic {
+  width: 1200px;
+  height: 700px;
+  height: auto;
+  align-self: center;
+  position: absolute;
+  top: 69px;
+
+}
+.toptitle{
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background-color: black;
+  width: 1200px;
+}
+.midcont{
+  padding-top: 50px;
+  display: block;
+  position: relative;
+  margin: 0 100px;
+  width: 1200px;
+  height: 700px;
+  background-color: black;
+  align-items: center;
+}
+.midtitle {
+  text-align: center;
+  width: 1200px;
+}
+.photocontainer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  display: block;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.midimg {
+  width: 300px;
+  height: 200px;
+}
+
+.bottomcont {
+  background-image: url("/Users/suishen/Desktop/Sui/2 Codecademy Projects/Tea Cozy/resources/images/img-locations-background.jpg");
+  background-size: 1200px 500px;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  margin: 0 100px;
+  width: 1200px;
+  height: 500px;
+  align-items: center;
+}
+.locationpic {
+  width: 1200px;
+  height: 500px;
+  position: absoulte;
+}
+.locations {
+  padding-top: 15px;
+  position: relative;
+  text-align: center;
+  align-items:baseline;
+
+}
+.locationbox{
+  width: 1200px;
+  display: inline-flex;
+  justify-content: center;
+}
+.box {
+  height: auto;
+  width: 300px;
+  margin-right: 20px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  word-wrap: normal;
+}
+.footer {
+  position: relative;
+  text-align: center;
+  height: 200px;
+}
+.copyright {
+  margin-left: 20px;
+}
